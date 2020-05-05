@@ -1,0 +1,91 @@
+
+
+
+
+.navbar {
+    background-color: #660066;
+    font-family:  "Helvetica Neue";
+  height: 60px;
+
+    
+  }
+
+  .header{
+    background-image: url("background.jpg");
+}
+  }
+  
+  
+  h1{
+
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 72px;
+  }
+
+  h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 52px;
+  }
+
+  .text-box {
+    display: inline-block;
+    width: 45%;
+    margin: 5em;
+    vertical-align: top;
+    font-size: 16px;
+  
+  }
+
+  article {
+    margin-left:   2em;
+    width: 100%;
+    padding:  4em;
+  }
+
+  .icon-container{
+    color: #660066;
+    width: 100%;
+    text-align: center;
+    size: 108px;
+       
+    
+
+  }
+
+
+
+
+  .container-bg{
+      background-color: #660066;
+      margin-top: auto;
+  }
+
+
+
+  .container-bg h3{
+      text
+  }
+
+  .card-body {
+    width: initial;
+    margin-bottom: 3em;
+  
+  }
+
+  footer{
+    margin: 0 0.25em 0.5em 0.25em;
+    background-color: #660066;
+  }
+  
+  .icon-container {
+      size: 50px;
+  }
+
+  .contacto, h4{
+      font-family: 'Oswald', sans-serif;
+      font-weight: bold;
+      text-align: center;
+  }
