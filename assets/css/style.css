@@ -1,27 +1,57 @@
 
+@font-family: 'Oswald', sans-serif;
+font-family: 'Open Sans', sans-serif;
 
 
+
+body{
+  padding: 0;
+  border: 0;
+}
 
 .navbar {
-    background-color: #660066;
-    font-family:  "Helvetica Neue";
+  background-color: #660066;
+  font-family:  "Helvetica Neue";
   height: 60px;
-
-    
+  
   }
+  
 
-  .header{
-    background-image: url("background.jpg");
-}
+  header{
+
+   
+    background-image: url("../img/header.jpg");
+    height: 500pt;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+      
+      
   }
   
   
+
   h1{
 
     font-family: 'Oswald', sans-serif;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
     font-size: 72px;
+
+    
   }
+#bajada{
+margin-top: 5px;
+font-weight: bold;
+
+}
+
+#encabezado {
+
+  padding: 250pt;
+}
+
 
   h3{
     font-family: 'Oswald', sans-serif;
@@ -39,11 +69,7 @@
   
   }
 
-  article {
-    margin-left:   2em;
-    width: 100%;
-    padding:  4em;
-  }
+ 
 
   .icon-container{
     color: #660066;
@@ -54,20 +80,18 @@
     
 
   }
-
+  
 
 
 
   .container-bg{
       background-color: #660066;
-      margin-top: auto;
+    
   }
 
 
 
-  .container-bg h3{
-      text
-  }
+ 
 
   .card-body {
     width: initial;
@@ -76,8 +100,10 @@
   }
 
   footer{
-    margin: 0 0.25em 0.5em 0.25em;
+    margin: 0;
+    padding: 0;
     background-color: #660066;
+    display: block;
   }
   
   .icon-container {
@@ -88,4 +114,64 @@
       font-family: 'Oswald', sans-serif;
       font-weight: bold;
       text-align: center;
+  }
+
+  .element {
+    display: inline-block;
+    padding: 3em;
+  }
+  
+  .container.footer {
+    display: inline-block;
+    padding: 3em;
+    width: auto;
+    position:fixed;
+    bottom:0px;
+  }
+
+  .text-presentacion{
+    
+    color: #373A3C;
+    display: inline-block;
+    line-height: 40px;
+    margin: 5em;
+    vertical-align: top;
+    text-align: left;
+    font-size: 16px;
+    margin: 5em;
+    
+  }
+
+ .trabajos-text{
+    text-align: center;
+  }
+  #description{
+   color: #373A3C;
+  }
+
+
+
+  .card-deck{
+    margin-bottom: 0;
+  }
+
+
+
+  .card-deck h5 {
+
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    text-align: left;
+    font-size: 23pt;
+
+  }
+
+  .card-deck p {
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    line-height: 30px;
+    text-align: left;
+    font-size: 16pt;
+
   }
