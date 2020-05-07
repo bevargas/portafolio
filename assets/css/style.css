@@ -48,10 +48,6 @@ font-weight: bold;
 
 }
 
-#encabezado {
-
-  padding: 250pt;
-}
 
 
   h3{
@@ -92,7 +88,10 @@ font-weight: bold;
 
 
 
- 
+ .p{
+color: black;
+
+ }
 
   .card-body {
     width: initial;
@@ -188,21 +187,30 @@ font-weight: bold;
 
   @media screen and (max-width: 400px){
 
+
+
+    body{
+      width: auto;
+    }
     
 
-    header{
+    .header img{
 
    
       background-image: url("../img/header.jpg");
-      height: 100%;
+     
       background-repeat: no-repeat;
       background-size: cover;
-     
+      image-orientation: initial;     
         
         
     }
     
-
+header{
+  width: auto;
+  height: 507px;
+  
+}
 
     h1{
         text-align: center;
@@ -215,7 +223,22 @@ font-weight: bold;
 
     }
 
-    .navbar {
-      width: 100%;
-      
-      }
+    
+
+
+      .h1{
+
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-size: 40pt;
+
+
+    }
+
+    .encabezado h1{
+      font-size: 40pt;
+      margin-bottom: 20px;
+
+     }
